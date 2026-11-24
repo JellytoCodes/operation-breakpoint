@@ -1,0 +1,81 @@
+{
+  "camera_index": 2,
+  "camera_name": "XWF-1080p6 Camera",
+  "camera_backend": "DSHOW",
+  "camera_fourcc": "MJPG",
+  "camera_auto_fallback": false,
+  "camera_scan_max_index": 5,
+  "frame_width": 1280,
+  "frame_height": 720,
+  "frame_fps": 30,
+  "mirror_input": false,
+  "always_on_top": false,
+  "initial_motion_mode": 1,
+  "max_num_poses": 3,
+  "minimum_visibility": 0.6,
+  "player_roi": {
+    "left": 0.375,
+    "top": 0.05,
+    "right": 0.625,
+    "bottom": 0.95
+  },
+  "player_maximum_tracking_jump": 0.2,
+  "player_tracking_lock_timeout_seconds": 1.0,
+  "breach_left_hand_roi": {
+    "left": 0.68125,
+    "top": 0.28125,
+    "right": 0.74875,
+    "bottom": 0.36875
+  },
+  "breach_right_hand_roi": {
+    "left": 0.25125,
+    "top": 0.28125,
+    "right": 0.31875,
+    "bottom": 0.36875
+  },
+  "breach_minimum_visibility": 0.6,
+  "breach_stable_frames": 4,
+  "hammer_start_roi": {
+    "left": 0.09625,
+    "top": 0.12,
+    "right": 0.37375,
+    "bottom": 0.36
+  },
+  "hammer_target_roi": {
+    "left": 0.62625,
+    "top": 0.6225,
+    "right": 0.90375,
+    "bottom": 0.8775
+  },
+  "hammer_minimum_visibility": 0.6,
+  "hammer_stable_frames": 4,
+  "hammer_swing_timeout_seconds": 2.0,
+  "hammer_result_display_seconds": 1.5,
+  "kick_target_roi": {
+    "left": 0.3875,
+    "top": 0.5175,
+    "right": 0.6125,
+    "bottom": 0.7425
+  },
+  "kick_minimum_visibility": 0.5,
+  "kick_ready_frames": 6,
+  "kick_stable_frames": 2,
+  "kick_result_display_seconds": 1.5,
+  "crouch_calibration_frames": 45,
+  "crouch_shoulder_enter_ratio": 0.45,
+  "crouch_shoulder_exit_ratio": 0.25,
+  "crouch_head_enter_ratio": 0.4,
+  "crouch_head_exit_ratio": 0.2,
+  "crouch_stable_frames": 4,
+  "crouch_tracking_timeout_seconds": 2.0,
+  "osc_ip": "AUTO",
+  "osc_port": 8000,
+  "crouch_address": "/motion/crouch",
+  "heartbeat_address": "/system/mediapipe/heartbeat",
+  "left_wrist_address": "/mediapipe/left_wrist",
+  "right_wrist_address": "/mediapipe/right_wrist",
+  "heartbeat_hz": 1.0,
+  "send_wrist_landmarks": false,
+  "wrist_send_hz": 15.0,
+  "camera_obs_share": true
+}

@@ -1,0 +1,11 @@
+{
+  "osc_ip": "127.0.0.1",
+  "crouch_address": "/motion/crouch",
+  "heartbeat_address": "/system/mediapipe/heartbeat",
+  "heartbeat_hz": 1.0,
+  "left_wrist_address": "/mediapipe/left_wrist",
+  "right_wrist_address": "/mediapipe/right_wrist",
+  "send_wrist_landmarks": false,
+  "wrist_send_hz": 15.0,
+  "crouch_tracking_timeout_seconds": 0.75
+}
